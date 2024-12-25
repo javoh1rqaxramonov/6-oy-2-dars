@@ -1,0 +1,265 @@
+.container{
+  max-width: 1202px;
+  width: 100%;
+  margin: 0px auto;
+}
+header{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 131px;
+}
+.comname{
+  font-size: 20px;
+  font-weight: 700;
+  /* text-align: center; */
+  /* margin-right: 282px; */
+  margin-top: 43px;
+  cursor: pointer;
+}
+.select{
+  display: flex;
+  gap: 30px;
+  /* margin-right: 226px; */
+  margin-top: 47px;
+}
+.select select {
+  border: none;
+  font-size: 14px;
+  font-weight: 600;
+  text-align: center;
+  color: #000000;
+}
+.select p {
+  font-size: 14px;
+  font-weight: 600;
+  text-align: center;
+  color: #000000;
+}
+.signin{
+  display: flex;
+  gap: 49px;
+}
+button {
+  cursor: pointer;
+}
+.sign{
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 600;
+  text-align: center;
+  color:#000000;
+  margin-top: 28px;
+}
+.start{
+  font-size: 14px;
+  font-weight: 600;
+  text-align: center;
+  color: white;
+  padding: 17px 35px;
+  margin-top: 28px;
+  border-radius: 10px;
+  background-color: #4F46BA;
+  border: none;
+}
+.hero{
+  display: flex;
+  margin-left: 31px;
+  margin-bottom: 41px;
+}
+h1{
+  width: 646px;
+  font-size: 60px;
+  font-weight: 800;
+  color: #000000;
+}
+.left p{
+  width: 446px;
+  margin-top: 19px;
+  color: #64607D;
+  margin-bottom: 47px;
+  font-size: 20px;
+  font-weight: 500;
+}
+.btns{
+  display: flex;
+  gap: 50px;
+}
+.our{
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 47px;
+  background-color: #3734A9;
+  padding: 15px 36px;
+  color: white;
+  border: none;
+}
+.left_btn2 button{
+  border-radius:47px;
+  background-color: transparent;
+  border: none;
+  margin-right: 11px;
+}
+.left_btn2 {
+  display: flex;
+  align-items: center;
+}
+.left_btn2 a{
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: 600;
+  text-decoration-skip-ink: none;
+  color: #3734A9;
+}
+.right {
+  display: flex;
+  flex-direction: column;
+  margin-top: 33px;
+  margin-left: 35px;
+}
+.right h3{
+font-size: 24px;
+font-weight: 700;
+text-align: left;
+color: #3734A9;
+margin-bottom: 22px;
+}
+.right input{
+  margin-bottom: 40px;
+  width: 356px;
+  padding: 16px 0px 14px 21px;
+  border-radius: 5px;
+  border: 1px solid #DFE4F1;
+  font-family: Manrope;
+  font-size: 20px;
+  font-weight: 500;
+  text-align: left;
+}
+.right button {
+  padding: 16px 0px 14px 0px;
+  border-radius: 5px;
+  border: none;font-family: Manrope;
+  font-size: 16px;
+  font-weight: 700;
+  text-align: center;
+  color: white;
+  background-color: #FF7F5C;
+}
+.logoes{
+  padding-top: 64px;
+}
+.logoes h4{
+  font-family: Manrope;
+  font-size: 22px;
+  font-weight: 700;
+  text-align: center;
+  color: #000000;
+  margin-bottom: 36px;
+}
+.logoimg{
+  display: flex;
+  justify-content: center;
+  gap: 49.5px;
+  text-align:center ;
+  margin-bottom: 108px;
+}
+.middle{
+  display: flex;
+  justify-content: center;
+}
+.middle_inside{
+  margin: 0 auto;
+}
+.middle_inside h4{
+  font-size: 42px;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 13px;
+  color: #000000;
+  width: 699px;
+}
+.middle_inside p{
+  font-size: 20px;
+  font-weight: 500;
+  text-align: center;
+  color: #64607D;
+  width: 604px;
+  text-align: center;
+  margin-bottom: 25px;
+  margin-left: 47px;
+}
+.middle_inside button {
+  margin-left: 75px;
+  width: 546px;
+  padding: 8px 0px 10px 0px;
+  border-radius: 10px;
+  background-color: #3734A9;
+  border: none;
+  color: white;
+  font-size: 17px;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 69px;
+}
+.comments{
+  display: flex;
+  justify-content: center;
+  gap: 85px;
+}
+.commentsinside h5{
+  font-size: 16px;
+  font-weight: 800;
+  text-align: left;
+  color: #000000;
+  margin-top: 24px;
+  margin-bottom: 1px;
+}
+.commentsinside p{
+  font-size: 14px;
+  font-weight: 500;
+  text-align: left;
+  color: #757095;
+  width: 279px;
+  margin-bottom: 114px;
+}
+.check {
+  display: flex;
+  /* justify-content: center; */
+  background-color: #F8F9FD;
+  padding: 38px 72px 46px 70px;
+  width: 1044px;
+  margin: 0 auto;
+  margin-bottom: 100px;
+  border-radius: 10px;
+}
+.checkout{
+  display: flex;  
+  align-items: center;
+  gap: 160px;
+}
+.checkout h2{
+  font-size: 36px;
+  /* font-weight: 800; */
+  text-align: left;
+  color: #000000;
+  width: 561px;
+  line-height: 56px;
+}
+select{
+  cursor: pointer;
+}
+a{
+  cursor: pointer;
+}
+img{
+  cursor: pointer;
+}
+.checkout a{
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  font-weight: 400;
+  padding: 21px 44px 19px 43px;
+  border-radius: 10px;
+  background: rgb(79, 70, 186);
+}
